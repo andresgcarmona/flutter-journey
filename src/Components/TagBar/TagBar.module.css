@@ -1,0 +1,22 @@
+.tagContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.tag {
+  display: inline-block;
+  padding-inline: 0.5rem;
+  padding-block: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 9999px;
+  margin-inline: 0.3rem;
+  color: white;
+}
+
+.tag:hover, .tag:active {
+  color: #028acf;
+  border-color: #028acf;
+  transition: all 0.25s;
+}
